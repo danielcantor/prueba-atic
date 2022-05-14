@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "montserrat";
+    src: url("fonts/Montserrat-VariableFont_wght.ttf");
+}
+body{
+    font-family: 'montserrat', sans-serif !important;
+}
+.title{
+    font-size: 16px;
+    font-weight: 600
+}
+.author{
+    font-size:13px;
+    font-weight: 200;
+}
+.info{
+    font-size:13px;
+    font-weight: 300;
+}
+.btn-gray{
+    color: #fff !important;
+    font-size: 13px !important;
+    border-color:#343a40 !important;
+    background-color: #343a40 !important;
+}
+.pdf-logo{
+    width: 53%;
+}
+
+/* querys */
+@media (min-width: 400px ) and (max-width: 767.98px)  { 
+    .btn-gray{
+        width: 100%;
+        margin: 2px 0;
+    }
+    .pdf-logo{
+        width: 60%;
+    }
+}
+
+@media (min-width: 768px ) and (max-width: 992px)  { 
+    .btn-gray{
+        width: 80%;
+        margin: 2px 0;
+    }
+    .pdf-logo{
+        width: 57%;
+    }
+}
